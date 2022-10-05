@@ -1,0 +1,100 @@
+{
+    "documentDate": "2022-10-04T15:41:09.277032900",
+    "documentNumber": 10001,
+    "consumer": "Ludmil Aleksandrov Iliev",
+    "reference": "2",
+    "totalAmount": "191.43 EUR",
+    "totalAmountWithVat": "224.74 EUR",
+    "lines": [
+        {
+            "index": 1,
+            "quantity": 106.4,
+            "lineStart": "2021-01-01T10:00:00Z",
+            "lineEnd": "2021-02-28T23:59:59Z",
+            "product": "gas",
+            "price": 0.4,
+            "priceList": 2,
+            "amount": "21.76 EUR"
+        },
+        {
+            "index": 2,
+            "quantity": 45.6,
+            "lineStart": "2021-03-01T00:00:00Z",
+            "lineEnd": "2021-03-25T15:40:00Z",
+            "product": "gas",
+            "price": 4.4,
+            "priceList": 2,
+            "amount": "102.59 EUR"
+        }
+    ],
+    "taxes": [
+        {
+            "index": 1,
+            "lines": [1],
+            "name": "Standing charge",
+            "quantity": 58,
+            "unit": "days",
+            "price": 1.6,
+            "amount": "47.45 EUR"
+        },
+        {
+            "index": 2,
+            "lines": [2],
+            "name": "Standing charge",
+            "quantity": 24,
+            "unit": "days",
+            "price": 1.6,
+            "amount": "19.63 EUR"
+        }
+    ],
+    "vat": [
+        {
+            "index": 1,
+            "lines": 1,
+            "taxes": 0,
+            "taxedAmountPercentage": 60,
+            "percentage": 20,
+            "amount": "2.61 EUR"
+        },
+        {
+            "index": 2,
+            "lines": 1,
+            "taxes": 0,
+            "taxedAmountPercentage": 40,
+            "percentage": 10,
+            "amount": "0.87 EUR"
+        },
+        {
+            "index": 3,
+            "lines": 0,
+            "taxes": 1,
+            "taxedAmountPercentage": 100,
+            "percentage": 20,
+            "amount": "9.49 EUR"
+        },
+        {
+            "index": 1,
+            "lines": 2,
+            "taxes": 0,
+            "taxedAmountPercentage": 60,
+            "percentage": 20,
+            "amount": "12.31 EUR"
+        },
+        {
+            "index": 2,
+            "lines": 2,
+            "taxes": 0,
+            "taxedAmountPercentage": 40,
+            "percentage": 10,
+            "amount": "4.10 EUR"
+        },
+        {
+            "index": 3,
+            "lines": 0,
+            "taxes": 2,
+            "taxedAmountPercentage": 100,
+            "percentage": 20,
+            "amount": "3.93 EUR"
+        }
+    ]
+}

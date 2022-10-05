@@ -1,0 +1,100 @@
+{
+    "documentDate": "2022-10-04T15:41:09.474759600",
+    "documentNumber": 10002,
+    "consumer": "Kosena Assenova Vankova",
+    "reference": "3",
+    "totalAmount": "227.28 EUR",
+    "totalAmountWithVat": "265.88 EUR",
+    "lines": [
+        {
+            "index": 1,
+            "quantity": 392.4,
+            "lineStart": "2021-01-01T16:40:00Z",
+            "lineEnd": "2021-02-28T23:59:59Z",
+            "product": "gas",
+            "price": 0.7,
+            "priceList": 1,
+            "amount": "140.44 EUR"
+        },
+        {
+            "index": 2,
+            "quantity": 43.6,
+            "lineStart": "2021-03-01T00:00:00Z",
+            "lineEnd": "2021-03-11T09:00:00Z",
+            "product": "gas",
+            "price": 1.4,
+            "priceList": 1,
+            "amount": "31.21 EUR"
+        }
+    ],
+    "taxes": [
+        {
+            "index": 1,
+            "lines": [1],
+            "name": "Standing charge",
+            "quantity": 58,
+            "unit": "days",
+            "price": 1.6,
+            "amount": "47.45 EUR"
+        },
+        {
+            "index": 2,
+            "lines": [2],
+            "name": "Standing charge",
+            "quantity": 10,
+            "unit": "days",
+            "price": 1.6,
+            "amount": "8.18 EUR"
+        }
+    ],
+    "vat": [
+        {
+            "index": 1,
+            "lines": 1,
+            "taxes": 0,
+            "taxedAmountPercentage": 60,
+            "percentage": 20,
+            "amount": "16.85 EUR"
+        },
+        {
+            "index": 2,
+            "lines": 1,
+            "taxes": 0,
+            "taxedAmountPercentage": 40,
+            "percentage": 10,
+            "amount": "5.62 EUR"
+        },
+        {
+            "index": 3,
+            "lines": 0,
+            "taxes": 1,
+            "taxedAmountPercentage": 100,
+            "percentage": 20,
+            "amount": "9.49 EUR"
+        },
+        {
+            "index": 1,
+            "lines": 2,
+            "taxes": 0,
+            "taxedAmountPercentage": 60,
+            "percentage": 20,
+            "amount": "3.75 EUR"
+        },
+        {
+            "index": 2,
+            "lines": 2,
+            "taxes": 0,
+            "taxedAmountPercentage": 40,
+            "percentage": 10,
+            "amount": "1.25 EUR"
+        },
+        {
+            "index": 3,
+            "lines": 0,
+            "taxes": 2,
+            "taxedAmountPercentage": 100,
+            "percentage": 20,
+            "amount": "1.64 EUR"
+        }
+    ]
+}
